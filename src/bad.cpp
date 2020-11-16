@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-std::string copy(char *buf) {
+std::string copy(char* buf) {
 	char p[20];
 	auto size = strlen(buf);
 	memcpy(p, buf, size);
