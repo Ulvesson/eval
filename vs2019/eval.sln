@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_cpp", "hello_cpp\hell
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_c", "hello_c\hello_c.vcxproj", "{F6ABBEA3-CF0C-452B-BA40-A2C517255C0F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bad_cpp", "bad_cpp\bad_cpp.vcxproj", "{B1F03172-AE74-4135-857E-EBE0B80245AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{F6ABBEA3-CF0C-452B-BA40-A2C517255C0F}.Release|x64.Build.0 = Release|x64
 		{F6ABBEA3-CF0C-452B-BA40-A2C517255C0F}.Release|x86.ActiveCfg = Release|Win32
 		{F6ABBEA3-CF0C-452B-BA40-A2C517255C0F}.Release|x86.Build.0 = Release|Win32
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Debug|x64.ActiveCfg = Debug|x64
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Debug|x64.Build.0 = Debug|x64
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Debug|x86.Build.0 = Debug|Win32
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Release|x64.ActiveCfg = Release|x64
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Release|x64.Build.0 = Release|x64
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Release|x86.ActiveCfg = Release|Win32
+		{B1F03172-AE74-4135-857E-EBE0B80245AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
