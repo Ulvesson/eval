@@ -1,15 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
-
-char* string_dup2(const char* str)
-{
-	size_t len = strlen(str);
-	char* dup = (char*)malloc(len + 1);
-	if (dup)
-		strcpy(dup, str);
-	return str;
-}
+#include <malloc.h>
 
 // http://www.open-std.org/jtc1/sc22/wg14/www/docs/n1969.htm
 char* string_dup(const char* str)
@@ -29,7 +21,10 @@ char* copy(char* buf) {
 
 int main(int argc, char** argv)
 {
-	char* dup = string_dup2("What");
+	const char* msg = "Big bug! string_dup is broken.";
+	char* dup = string_dup(msg);
+	printf(dup);
+	free(dup);
 	char* buf = malloc(44);
 	buf = copy(argv[0]);
 	printf("%s", buf);
