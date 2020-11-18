@@ -27,7 +27,7 @@ data_t* create_data() {
 
 void free_data(data_t *p) {
 	free(p.str1);
-	free(p.str3);
+	free(p.str2);
 	free(p.str3);
 	free(p);
 }
