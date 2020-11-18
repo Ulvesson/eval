@@ -35,12 +35,12 @@ data* create_data() {
 			free(p);
 			return 0;
 		}
-		strncpy(p->str1, "str1", 3);
-		strncpy(p->str2, "str2", 3);
-		strncpy(p->str3, "str3", 3);
-		p->str1[3] = '\0';
-		p->str2[3] = '\0';
-		p->str3[3] = '\0';
+		strncpy(p->str1, "str1", 5);
+		strncpy(p->str2, "str2", 5);
+		strncpy(p->str3, "str3", 5);
+		p->str1[4] = '\0';
+		p->str2[4] = '\0';
+		p->str3[4] = '\0';
 	}
 
 	return p;
