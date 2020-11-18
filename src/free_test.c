@@ -13,7 +13,9 @@ typedef struct data_t {
 } data;
 
 data* create_data() {
-	data *p = malloc(sizeof(data));
+	size_t size = sizeof(data);
+	printf("data struct size: %d", (int)size);
+	data *p = malloc(size);
 	if (p) {
 		p->str1 = malloc(MAX_STR);
 		if (!p->str1) {
